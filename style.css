@@ -1,6 +1,11 @@
 /* Universal Styles */
 
-* {
+*,
+*::before,
+*::after,
+body,
+button,
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -65,7 +70,8 @@ button:hover {
   background-color: #131c27;
   color: white;
   position: sticky;
-  top: 0;
+  top: 0px;
+  left: 0px;
   z-index: 3;
 }
 
